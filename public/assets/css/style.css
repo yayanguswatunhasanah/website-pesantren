@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700&display=swap');
+
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+/* Button */
+.btn-danger {
+    background-color: #bd0001;
+    border-color: #bd0001;
+    border-radius: 15px;
+    padding: 15px 30px;
+    color: white;
+}
+
+.btn-outline-danger {
+    background-color: transparent;
+    border-color: #bd0001;
+    border-radius: 15px;
+    padding: 15px 30px;
+    color: #bd0001;
+}
+
+.btn-outline-white {
+    background-color: transparent;
+    border-color: white;
+    border-radius: 10px;
+    padding: 10px 30px;
+    color: white;
+}
+
+/* Navbar */
+.scroll-nav-active {
+    background-color: white;
+    /* border-bottom: 1px solid #bd0001; */
+    box-shadow: 1px 1px 11px -1px rgba(1, 1, 1, 0.08);
+}
+
+.text-nav-active {
+    color: black;
+}
+
+.nav-item .nav-link {
+    font-size: 18px;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+/* hero */
+#hero {
+    background-image: url('../images/hero.jpeg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 600px;
+}
+
+.hero-title {
+    padding-top: 200px;
+    text-shadow: 0 0 1px black;
+}
+
+.hero-text {
+    font-size: 65px;
+    font-weight: 600;
+}
+
+/* Responsive Layar Kecl 960px */
+@media screen and (max-width: 960px) {
+    .hero-text {
+        font-size: 35px;
+        font-weight: 600;
+    }
+}
+
+/* Join */
+.stripe {
+    height: 5px;
+    width: 40px;
+    background-color: #bd0001;
+}
+
+/* Vidio */
+#video {
+    background-image: url('../images/il-bg-video.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 500px;
+}
+
+/* Foto */
+/* Paralax */
+.section-foto {
+    background-attachment: fixed;
+    background-position: top;
+    background-size: cover;
+    height: 500px;
+    width: 100%;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.paralax {
+    background-image: url('../images/il-paralax.jpeg');
+}
+
+.stripe-putih {
+    height: 5px;
+    width: 40px;
+    background-color: white;
+}
